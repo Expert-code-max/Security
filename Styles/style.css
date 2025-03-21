@@ -1,0 +1,74 @@
+body{
+	background-color: orange;
+	list-style-type: none;
+	text-decoration: none;
+}
+body ul{
+	display: flex;
+	align-items: center;
+}
+body ul img{
+	border-radius: 45px;
+	height: 50px;
+}
+header{
+	text-align: center;
+	border: solid black 2px;
+	color: red;
+	padding: 5px;
+	font-size: 28px;
+}
+ul li{
+	text-decoration: none;
+	list-style-type: none;
+}
+.Appliance-card img{
+	width: 200px;
+	height: 200px;
+	border-radius: 35px;
+}
+.Appliance-card{
+	border: 1px solid #91DE71;
+	border-radius: 25px;
+}
+.security{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+footer{
+	border: solid blue 2px;
+	text-align: center;
+	font-size: 15px;
+	color: red;
+}
+.cover{
+	width: 100%;
+	background-image: url("../Images/Awareness.png");
+	height: 200px;
+}
+.cover h3{
+    font-size:40px;
+    font-family: Agency FB;
+    color: white;
+}
+.cover p{
+	color: red;
+	font-size: 25px;
+}
+section{
+	text-align: center;
+}
+.contact{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	border-radius: 25px;
+}
+.contact-card{
+	border: 1px solid #91DE71;
+	border-radius: 25px;
+	margin: 10px;
+}
+.contact-card img{
+	height: 60px;
+	border-radius: 25px;
+}
